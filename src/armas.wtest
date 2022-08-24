@@ -1,0 +1,15 @@
+import armas.*
+test "ballesta esta cargada" {
+
+	assert.that(ballesta.estaCargada())
+}
+test "jabalina no cargada"{	
+	jabalina.usarArma()
+	assert.that(jabalina.estaCargada())
+}
+
+test "ballesta potencial del arma es 4"{
+	assert.equals(4,ballesta.potenciaDelArma())
+	
+	
+}

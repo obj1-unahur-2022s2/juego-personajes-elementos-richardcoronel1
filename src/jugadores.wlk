@@ -7,4 +7,4 @@ object luisa {
 	method personajeActivo()= personajeActivo
 	method aparece(elemento)= (personajeActivo.encontrar(elemento))
 	
-}
+} 
